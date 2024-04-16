@@ -15,7 +15,7 @@ func main() {
 	fmt.Println("Hola mundo")
 	fmt.Println(quote.Go())
 
-	//  Declaracion de variables
+	//  Declaracion de variables 2
 
 	//var firstName, lastName string
 	//var age int
