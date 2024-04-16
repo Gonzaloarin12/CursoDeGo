@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strconv"
 
 	"rsc.io/quote"
 )
@@ -25,23 +26,9 @@ func main() {
 	fmt.Println("Hola mundo")
 	fmt.Println(quote.Go())
 
-	//  Declaracion de variables
+	s := "100"
+	i, _ := strconv.Atoi(s)
 
-	//var firstName, lastName string
-	//var age int
+	fmt.Println(i + i - i - i + 1)
 
-	//firstName, lastName := "Gonzalo", "Arin"
-	//age := 24
-
-	// fmt.Println(firstName, lastName, age)
-	//fmt.Println(Domingo, Jueves)
-	var (
-		defaulint    int
-		defauluint   uint
-		defaulfloat  float32
-		defaulbool   bool
-		defaulstring string
-	)
-
-	fmt.Println(defaulint, defauluint, defaulfloat, defaulbool, defaulstring)
 }
